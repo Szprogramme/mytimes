@@ -65,3 +65,50 @@ h2 {
   display: block;
   font-weight: bold;
 }
+.fall-cancelled.image-content {
+  background-image: url(./images/img-story-2.png)
+}
+.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+div {
+  display: block;
+}
+.lead-story .image-content {
+  background-image: url(./images/img-story-main.png);
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+}
+.lead-story .image-content span {
+  margin-left: 20px;
+}
+.narrative {
+  margin: 16px;
+}
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.stories .text-content {
+  height: 250px;
+}
+.pop-culture.image-content {
+  background-image: url(./images/img-story-3.png);
+}
